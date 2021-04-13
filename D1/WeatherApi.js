@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-let api_key = '715e97d94976cfd14f9be123aaff19a8'
+let api_key = 'API:KEY'
 let city = 'London'
 let api_url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`;
 
